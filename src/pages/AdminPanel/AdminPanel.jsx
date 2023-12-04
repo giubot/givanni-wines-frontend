@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './AdminPanel.css';
-import Navbar from '../components/Nabvar';
-import Footer from '../components/Footer';
+import Navbar from '../../components/Navbar/Nabvar';
+import Footer from '../../components/Footer/Footer';
 
 const apiUrl = "http://localhost:3000/productos";
 

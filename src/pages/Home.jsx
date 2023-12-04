@@ -1,10 +1,10 @@
-import Navbar from "../components/Nabvar";
-import Hero from '../components/Hero';
-import AboutUs from '../components/AboutUs';
-import ProducList from '../components/ProductList';
-import PaymentInfo from '../components/PaymentInfo';
-import Map from '../components/Map';
-import Footer from '../components/Footer';
+import Navbar from "../components/Navbar/Nabvar";
+import Hero from '../components/Hero/Hero';
+import AboutUs from '../components/AboutUs/AboutUs';
+import ProducList from '../components/ProductList/ProductList';
+import PaymentInfo from '../components/PaymentInfo/PaymentInfo';
+import Map from '../components/Map/Map';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
    return (

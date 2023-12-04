@@ -1,9 +1,9 @@
 import './CartPage.css';
 
-import Navbar from "../components/Nabvar";
+import Navbar from "../../components/Navbar/Nabvar";
 'react-router-dom';
-import Cart from '../components/Cart';
-import Footer from '../components/Footer';
+import Cart from '../../components/Cart/Cart';
+import Footer from '../../components/Footer/Footer';
 
 const CartPage = () => {
   return (

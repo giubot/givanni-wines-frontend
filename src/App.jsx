@@ -1,10 +1,10 @@
 
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
-import CartPage from './pages/CartPage';
-import AdminPanel from './pages/AdminPanel';
+import CartPage from './pages/CartPage/CartPage';
+import AdminPanel from './pages/AdminPanel/AdminPanel';
 import './App.css';
-import ProductDetails from './pages/ProductDetails';
+import ProductDetails from './pages/ProductDetails/ProductDetails';
 
 function App() {
   return (

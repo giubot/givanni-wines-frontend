@@ -1,8 +1,8 @@
 // ProductDetails.jsx
 import  { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import Navbar from '../components/Nabvar';
-import Footer from '../components/Footer';
+import Navbar from '../../components/Navbar/Nabvar';
+import Footer from '../../components/Footer/Footer';
 import './ProductDetails.css';
 
 const ProductDetails = () => {
