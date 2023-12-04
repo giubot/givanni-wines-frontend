@@ -1,0 +1,9 @@
+footer {
+    background-color: #524f4e; /* Marrón oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }

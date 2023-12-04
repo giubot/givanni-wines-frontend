@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-image: url('https://www.lasperdices.com/img/full/header-01c.jpg');
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 64px); /* Ajusta según la altura de la barra de navegación */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero h1 {
+  font-family: 'Cinzel', serif;
+  font-size: 3.5rem; /* Ajusta según tus necesidades */
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 3px #8b7054;
+}
+
+.slogan {
+  font-family: 'Cormorant', sans-serif;
+  font-size: 2.5rem; /* Ajusta según tus necesidades */
+  font-style: italic; /* Cursiva */
+  color: #ffff; /* Color blanco o ajusta según tus preferencias */
+  margin-top: 0.5rem; /* Espacio superior */
+  text-shadow: 1px 1px 4px  #4b2f25;
+}

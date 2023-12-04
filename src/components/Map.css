@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.map {
+  background-color: #f4f1ea; /* Crema */
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.map h2 {
+  color: #975f4a; /* Vino tinto */
+  font-size: 2rem; /* Ajusta según tus necesidades */
+  font-family: 'Cinzel', 'Serif';
+  margin-bottom: 1rem; /* Ajusta según tus necesidades */
+}
+
+iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+  border-radius: 8px;
+}

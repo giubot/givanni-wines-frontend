@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 90vh;
+  }
+  
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Ajustado a un valor más pequeño */
+    margin: 3%;
+    border-radius: 10px;
+    background-color: #f0e4cd; /* Color crema */
+    min-height: 60vh;
+}
+  .cart-item {
+    margin-bottom: 10px;
+  }
+  
+  .cart-item p {
+    margin: 0;
+  }
+  
+  .cart-container h2 {
+    font-family: 'Cinzel';
+    margin-bottom: 20px; /* Ajustado para dar más espacio entre el título y los elementos del carrito */
+  }
+
+  
+  
+  .footer {
+    margin-top: auto;
+    position: fixed;
+  }

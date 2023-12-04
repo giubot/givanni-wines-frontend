@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+}
+
+.WineApp {
+    text-align: center;
+    color: #211511;
+    font-size: 0.5rem;
+   
+
+  }
+  
+  .button-add {
+    background:  #89513f8f;
+    color: white;
+    padding: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    
+  }
+  
+  .wine-table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgb(241, 228, 214);
+    margin: 5%;
+    
+  
+    
+  }
+  
+  .wine-table th, .wine-table td {
+    border: 1px solid #af8464;
+    padding: 15px;
+    border-width: 2px;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  .wine-table th {
+    background-color:#975f4a;
+    color: #F4F1EA;
+    font-size: 1.2rem;
+ 
+  }
+  
+  .wine-image {
+    width: 50px;
+    height: auto;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #F4F1EA;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    font-size: 1.5rem;
+}
+  
+  .close {
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+
+    
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background: #F4F1EA;
+    
+  }
+  
+  .button-insert, .button-update {
+    background: rgba(16, 16, 193, 0.662);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+  }
+  
+  .button-cancel {
+    background: rgb(60, 255, 0);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+   
+  }
+  
+  .button-delete {
+    background: rgba(187, 64, 64, 0.717);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 80%;
+  }
+  
+  .button-edit {
+    background: rgb(79, 79, 208);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 8%;
+    width: 80%;
+  }
+  
+  .button-confirm, .button-cancel {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .button-confirm {
+    background: rgba(255, 0, 0, 0.888);
+    color: white;
+    width: 90%;
+  }
+  
+  .button-cancel {
+    background: blue;
+    color: white;
+  }
+  

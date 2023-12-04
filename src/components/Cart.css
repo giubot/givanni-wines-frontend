@@ -1,0 +1,39 @@
+/* Cart.css */
+*{
+    font-size: 1.3rem;
+    
+}
+
+button {
+    background-color:   #96572aab;
+    padding: 6%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    font-family: 'Cinzel';
+    color: #fff;
+    margin-bottom: -5%;
+  }
+  
+ 
+  
+  .cart-item {
+    margin-bottom: 10px;
+    text-align: left;
+    
+  }
+  
+  .cart-item p {
+    margin: 0;
+  }
+  
+  .cart-container h2 {
+    margin-top: -5%;
+    font-family: 'Cinzel';
+    margin-bottom: 20px;
+    font-size: 2rem; /* Ajustado para dar más espacio entre el título y los elementos del carrito */
+  }
+  
+  /* Otros estilos según tus necesidades */
+  

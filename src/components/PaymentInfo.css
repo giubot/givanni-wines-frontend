@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.payment-info {
+  background-color: #f4f1ea; /* Crema */
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+.payment-info h2 {
+  color: #975f4a; /* Vino tinto */
+  font-size: 2rem; /* Ajusta según tus necesidades */
+  font-family: 'Cinzel', 'Serif';
+}
+
+.payment-info p {
+  font-family: 'Cormorant', sans-serif;
+  margin: 1rem 0;
+  font-size: 1rem; /* Ajusta según tus necesidades */
+  line-height: 1.5;
+  color: #524f4e; /* Marrón oscuro */
+}

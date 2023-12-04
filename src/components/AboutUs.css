@@ -1,0 +1,24 @@
+.about-us {
+    background-color: #f4f1ea; /* Crema */
+    padding: 7%;
+    margin-bottom: 3rem;
+   
+    
+    
+  }
+  
+  .about-us h2 {
+    color: #975f4a; /* Vino tinto */
+    font-size: 2.5rem;
+    font-family: 'Cinzel';
+    margin-top: 0;
+    margin-bottom: 1%;
+
+  }
+  
+  .about-us p {
+    font-size: 1.5rem;
+    line-height: 1.7;
+    font-family: 'Cormorant';
+    color: #524f4e; /* Marrón oscuro */
+  }
