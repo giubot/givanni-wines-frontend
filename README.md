@@ -1,10 +1,10 @@
 # Proyecto “Bodega Givanni”
 
-**[Información importante, leer antes de usar.](https://www.notion.so/Proyecto-Bodega-Givanni-2b2af36a9ecf415caef9abf641631a08?pvs=21)**
+**[Información importante, leer antes de usar.]**
 
 ### **¡Bienvenido!**
 
-![Untitled](Proyecto%20%E2%80%9CBodega%20Givanni%E2%80%9D%202b2af36a9ecf415caef9abf641631a08/Untitled.png)
+![Home Image](public/home-image.png)
 
 Bienvenido a nuestra e-commerce de vinos desarrollada como proyecto de la diplomatura full-stack UTN, en que se evalúa la capacidad de escribir código de APIs y creación de bases de datos con MySQL. Aquí un par de consideraciones: 
 
@@ -20,11 +20,11 @@ Bienvenido a nuestra e-commerce de vinos desarrollada como proyecto de la diplom
 
 ## Importante
 
-Para acceder a la parte del CRUD, que sería un panel de administrador, en la url de [localhost](http://localhost) escribir la ruta /admin. 
+Para acceder a la parte del CRUD, que sería un panel de administrador, en la url de [localhost](http://localhost) escribir la ruta **/admin**. 
 
-![Untitled](Proyecto%20%E2%80%9CBodega%20Givanni%E2%80%9D%202b2af36a9ecf415caef9abf641631a08/Untitled%201.png)
+![Untitled](public/admin-route.png)
 
-![Untitled](Proyecto%20%E2%80%9CBodega%20Givanni%E2%80%9D%202b2af36a9ecf415caef9abf641631a08/Untitled%202.png)
+![Admin Panel](public/adminpanel-image.png)
 
 Desarrollado en Javascript con React.js
 
