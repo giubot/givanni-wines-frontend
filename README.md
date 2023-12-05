@@ -20,7 +20,7 @@ Bienvenido a nuestra e-commerce de vinos desarrollada como proyecto de la diplom
 
 ## Importante
 
-Para acceder a la parte del CRUD, que sería un panel de administrador, en la url de [localhost](http://localhost) escribir la ruta **/admin**. 
+Para acceder a la parte del CRUD, que sería el panel de administrador, en la url de localhost escribir la ruta **/admin**. 
 
 ![Untitled](public/admin-route.png)
 
