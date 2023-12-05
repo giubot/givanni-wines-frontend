@@ -5,12 +5,12 @@
 }
 
 nav {
-  background-color: #975f4a; /* Vino tinto */
+  background-color: #975f4a;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.2rem;
-  color: #fff; /* Texto en blanco */
+  color: #fff; 
   padding: 1%;
   padding-right: 4%;
 }

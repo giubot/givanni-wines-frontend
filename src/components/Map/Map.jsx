@@ -1,11 +1,11 @@
-// Hero.js
+
 import './Map.css';
 
 const Map = () => {
   return (
     <div className="map">
     <h2>Nuestra Ubicación</h2>
-    {/* Agregar el código de inserción del mapa de Google */}
+    {/* Agregar el código de inserción del mapa de Google de una ubicación real más adelante */}
     <iframe
       title="Ubicación de la Bodega"
       width="600"

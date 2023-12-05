@@ -17,8 +17,7 @@ const ProductList = () => {
 
   const handleSearchClick = () => {
     setSearchModalVisible(true);
-    // Realiza la búsqueda cuando se abre el modal, o puedes realizar la búsqueda al hacer clic en un botón dentro del modal
-    // En este ejemplo, realiza la búsqueda aquí al abrir el modal
+   
     performSearch();
   };
 
@@ -42,7 +41,7 @@ const ProductList = () => {
     <div className="product-list-container">
       <h2 className="product-list-title">Nuestra Selección</h2>
       
-      {/* Agrega el botón de búsqueda */}
+     
       <div className="search-button" onClick={handleSearchClick}>
         <span role="img" aria-label="Search">🔍</span> Buscar
       </div>
@@ -56,17 +55,17 @@ const ProductList = () => {
                 <p className="product-list-name">{product.Nombre}</p>
                 <p className="product-list-description">{product.Descripcion}</p>
                 <p className="product-list-price">${parseFloat(product.Precio).toFixed(2)}</p>
-                {/* Agregar botón para agregar al carrito */}
+                
               </div>
             </Link>
           </li>
         ))}
       </ul>
 
-      {/* Agrega el modal de búsqueda */}
+    
       {searchModalVisible && (
         <div className="search-modal">
-          {/* Agrega el botón de cierre (x) */}
+          
           <button className="close-button" onClick={handleCloseModal}>
             <span role="img" aria-label="Close">X</span>
           </button>
@@ -86,7 +85,7 @@ const ProductList = () => {
           <ul>
             {searchResults.map(result => (
               <Link to={`/productos/${result.ID}`} key={result.ID} className='eliminate-link'>
-                {/* Wrap each result with Link */}
+               
                 <li>
                   <div className="search-result-card">
                     <img

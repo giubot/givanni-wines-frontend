@@ -10,7 +10,7 @@ html, * {
 
 body {
   font-family: 'Cinzel', serif;
-  color: #524f4e; /* Marrón oscuro */
+  color: #524f4e; 
   margin: 0;
   padding: 0;
 }
@@ -22,12 +22,12 @@ h1, h2, h3 {
 
 body {
   font-family: 'Cinzel', serif;
-  color: #524f4e; /* Marrón oscuro */
+  color: #524f4e;
   margin: 0;
   padding: 0;
   background-image: url('https://img.freepik.com/foto-gratis/fondo-piso-madera_53876-88628.jpg');
-  width: 100vw; /* Corregido de 100wh a 100vw */
-  background-color: rgba(255, 255, 255, 0.8); /* Corregido de background-image a background-color */
+  width: 100vw; 
+  background-color: rgba(255, 255, 255, 0.8); 
   overflow-x: hidden;
 }
 

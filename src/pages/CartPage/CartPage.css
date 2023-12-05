@@ -9,10 +9,10 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 20px; /* Ajustado a un valor más pequeño */
+    padding: 20px; 
     margin: 3%;
     border-radius: 10px;
-    background-color: #f0e4cd; /* Color crema */
+    background-color: #f0e4cd;
     min-height: 60vh;
 }
   .cart-item {
@@ -25,7 +25,7 @@ body {
   
   .cart-container h2 {
     font-family: 'Cinzel';
-    margin-bottom: 20px; /* Ajustado para dar más espacio entre el título y los elementos del carrito */
+    margin-bottom: 20px; /
   }
 
   

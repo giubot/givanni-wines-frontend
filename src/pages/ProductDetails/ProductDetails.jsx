@@ -1,4 +1,4 @@
-// ProductDetails.jsx
+
 import  { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import Navbar from '../../components/Navbar/Nabvar';
@@ -29,7 +29,7 @@ const ProductDetails = () => {
   const addToCart = () => {
     const updatedCart = [...cart, productDetails];
     setCart(updatedCart);
-    // Navega a la página CartPage y pasa el estado del carrito actualizado como una propiedad
+    // Navega ción a CartPage y pasa el estado del carrito actualizado como  prop
     navigate('/cart-page', { state: { cart: updatedCart } });
   };
 
